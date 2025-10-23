@@ -1,0 +1,29 @@
+Raspy/Parser/Config.swift
+
+# Xcode
+DerivedData/
+.build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# Build products
+build/
+*.app
+*.ipa
+*.dSYM
+*.framework
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+Packages/
+Package.resolved
+
+# macOS
+.DS_Store

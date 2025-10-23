@@ -1,0 +1,24 @@
+{
+  "source": "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Schedule/ScheduleView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Расписание",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hello, World!",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 14
+        }
+      }
+    ]
+  },
+  "version": 1
+}

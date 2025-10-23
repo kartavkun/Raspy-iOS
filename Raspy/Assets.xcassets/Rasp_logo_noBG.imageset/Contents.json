@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "A_minimalist_logo_for_the_mobile_app_Raspy__featuring_only_the_English_letter_R._The_logo_should_have_a_simple_background_for_easy_cropping._The_letter_R_can_be_designed_either_simply_or_with_various_.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

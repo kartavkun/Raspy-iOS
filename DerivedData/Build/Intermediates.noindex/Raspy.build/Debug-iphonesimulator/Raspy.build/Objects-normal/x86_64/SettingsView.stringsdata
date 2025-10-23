@@ -1,0 +1,48 @@
+{
+  "source": "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Настройки",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Тема приложения",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Расписания",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "О приложении",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Поддержать",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 53
+        }
+      }
+    ]
+  },
+  "version": 1
+}

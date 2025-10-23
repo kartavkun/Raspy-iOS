@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/Sections/Schedules/SearchScheduleSheet.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, World!",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 12
+        }
+      }
+    ]
+  },
+  "version": 1
+}

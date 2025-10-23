@@ -1,0 +1,158 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Raspy-master.dia",
+    "emit-module-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Raspy-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Raspy-master-emit-module.dia",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Raspy-master.swiftdeps"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/AppSettings.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AppSettings~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/ContentView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Item.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Item~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/LaunchScreenView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/LaunchScreenView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Parser/Config.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/Config~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/RaspyApp.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/RaspyApp~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/ScheduleSelectionService.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSelectionService~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/BreaksView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/BreaksView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Schedule/ScheduleView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/Sections/About/AboutSettingsView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/AboutSettingsView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/Sections/Schedules/ScheduleSettingsView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/ScheduleSettingsView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/Sections/Schedules/SearchScheduleSheet.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SearchScheduleSheet~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/Sections/Support/SupportSettingsView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SupportSettingsView~partial.swiftmodule"
+  },
+  "/Users/kartavkun/git/my-repos/Raspy/Raspy/Tabs/Settings/SettingsView.swift" : {
+    "const-values" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.d",
+    "diagnostics" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.dia",
+    "index-unit-output-path" : "/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.o",
+    "llvm-bc" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.bc",
+    "object" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.o",
+    "swift-dependencies" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/kartavkun/git/my-repos/Raspy/DerivedData/Build/Intermediates.noindex/Raspy.build/Debug-iphonesimulator/Raspy.build/Objects-normal/x86_64/SettingsView~partial.swiftmodule"
+  }
+}
