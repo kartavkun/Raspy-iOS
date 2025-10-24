@@ -48,6 +48,7 @@ struct AboutSettingsView: View {
             .frame(maxWidth: .infinity)
         }
         .navigationTitle("О приложении")
+        .background(Color(uiColor: .secondarySystemBackground))
     }
 }
 

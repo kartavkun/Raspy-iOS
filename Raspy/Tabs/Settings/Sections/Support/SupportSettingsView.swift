@@ -15,51 +15,51 @@ struct Donor: Identifiable {
 
 struct SupportSettingsView: View {
     let regularDonors = [
-        Donor(nickname: "test1", isRegular: true),
+        Donor(nickname: "", isRegular: true),
     ]
     
     let oneTimeDonors = [
-        Donor(nickname: "test1", isRegular: false)
+        Donor(nickname: "", isRegular: false)
     ]
     
     var body: some View {
         List {
             Section {
-                Link(destination: URL(string: "https://kartavkun.me")!) {
+                Link(destination: URL(string: "https://boosty.to/kartavkun")!) {
                     Text("Поддержать проект")
                         .foregroundColor(.blue)
                 }
                 .listRowBackground(
                     Rectangle()
-                        .fill(Color(uiColor: .secondarySystemBackground))
+                        .fill(Color(uiColor: .systemBackground))
                 )
             }
             
             if !regularDonors.isEmpty {
                 Section(header: Text("ЕЖЕМЕСЯЧНАЯ ПОДДЕРЖКА").textCase(.uppercase)) {
-                    ForEach(regularDonors) { donor in
-                        Text(donor.nickname)
-                    }
+//                    ForEach(regularDonors) { donor in
+//                        Text(donor.nickname)
+//                    }
                 }
                 .listRowBackground(
                     Rectangle()
-                        .fill(Color(uiColor: .secondarySystemBackground))
+                        .fill(Color(uiColor: .systemBackground))
                 )
             }
             
             if !oneTimeDonors.isEmpty {
                 Section(header: Text("РАЗОВАЯ ПОДДЕРЖКА").textCase(.uppercase)) {
-                    ForEach(oneTimeDonors) { donor in
-                        Text(donor.nickname)
-                    }
+//                    ForEach(oneTimeDonors) { donor in
+//                        Text(donor.nickname)
+//                    }
                 }
                 .listRowBackground(
                     Rectangle()
-                        .fill(Color(uiColor: .secondarySystemBackground))
+                        .fill(Color(uiColor: .systemBackground))
                 )
             }
         }
-        .background(Color(uiColor: .systemBackground))
+        .background(Color(uiColor: .secondarySystemBackground))
         .scrollContentBackground(.hidden)
         .listStyle(InsetGroupedListStyle())
         .navigationTitle("Поддержка")

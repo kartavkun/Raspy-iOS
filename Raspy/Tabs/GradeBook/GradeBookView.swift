@@ -11,6 +11,7 @@ struct GradeBookView: View {
     var body: some View {
         Text("Скоро!")
     }
+//    .background(Color(uiColor: .secondarySystemBackground))
 }
 
 #Preview {

@@ -114,25 +114,35 @@ struct BreaksView: View {
         }
     }
     
+    /// Создает объект Date для сегодняшнего дня с указанным временем ("08:00")
+    private func dateToday(hourMinute: String) -> Date? {
+        let components = hourMinute.split(separator: ":")
+        guard components.count == 2,
+              let hour = Int(components[0]),
+              let minute = Int(components[1]) else { return nil }
+        var calendar = Calendar.current
+        calendar.timeZone = TimeZone.current
+        let now = currentTime
+        var dateComponents = calendar.dateComponents([.year, .month, .day], from: now)
+        dateComponents.hour = hour
+        dateComponents.minute = minute
+        dateComponents.second = 0
+        return calendar.date(from: dateComponents)
+    }
+    
     private func isCurrentPair(_ pair: (number: Int, firstHalf: String, secondHalf: String)) -> Bool {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "HH:mm"
-        dateFormatter.locale = Locale(identifier: "en_US_POSIX") // гарантирует 24-часовой формат
-
         // Текущее время
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.hour, .minute], from: currentTime)
-        guard let now = calendar.date(from: components) else { return false }
-
-        func timeFromString(_ string: String) -> Date? {
-            dateFormatter.date(from: string)
+        let now = currentTime
+        
+        func dateFromTimeString(_ time: String) -> Date? {
+            dateToday(hourMinute: time)
         }
-
+        
         // Для праздников
         if selectedSchedule == 2 {
             guard
-                let start = timeFromString(pair.firstHalf),
-                let end = timeFromString(pair.secondHalf)
+                let start = dateFromTimeString(pair.firstHalf),
+                let end = dateFromTimeString(pair.secondHalf)
             else { return false }
             return now >= start && now <= end
         }
@@ -144,10 +154,10 @@ struct BreaksView: View {
         guard
             firstHalfTimes.count == 2,
             secondHalfTimes.count == 2,
-            let firstStart = timeFromString(String(firstHalfTimes[0])),
-            let firstEnd = timeFromString(String(firstHalfTimes[1])),
-            let secondStart = timeFromString(String(secondHalfTimes[0])),
-            let secondEnd = timeFromString(String(secondHalfTimes[1]))
+            let firstStart = dateFromTimeString(String(firstHalfTimes[0])),
+            let firstEnd = dateFromTimeString(String(firstHalfTimes[1])),
+            let secondStart = dateFromTimeString(String(secondHalfTimes[0])),
+            let secondEnd = dateFromTimeString(String(secondHalfTimes[1]))
         else { return false }
 
         return (now >= firstStart && now <= firstEnd) ||
