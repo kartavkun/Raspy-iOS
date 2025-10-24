@@ -14,31 +14,23 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		4PTEX0AGQTOZsMS662FVp8u5Se8=
+		QPGvgEsD7YiPmXPQjvcyFdYXOQA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BCUjviLTuqpaOUYGO5aBhP2wozw=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		L3H8hLrni3BK9Z/0mIG8fQ+KmlE=
+		vJ6luLXFGYf4GSa7NdSQbq9mLto=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>README.md</key>
-		<data>
-		5RK1vFcoo/sjJtD+jbefiOlX9s8=
-		</data>
 		<key>Raspy.debug.dylib</key>
 		<data>
-		S5WxaW5CTTOw/cgKaNjREYjvNTs=
+		gAnYjYVdC7shFbsgovoPoIQudN4=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
-		RXABgA8LLAycQA/UX8DkUdoS+Yo=
+		YidHJolUdSrqzk95CWN4K4bdHkE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -61,35 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PDtELC5cC+rwmM6VA9l2+OGnwNorz6Lbv1Ks77RfRH8=
-			</data>
-		</dict>
-		<key>LICENSE</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AcitOhpieYrg7ojoTt+cXPvYMisSgi02Pc+6OeO7/cQ=
-			</data>
-		</dict>
-		<key>README.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y0u0aU9jAHKl5Wj1RuoupYR0VfWGyR+9DbIrEUrBow8=
+			a7poRXmAI8twUrp14IeSAKGVGB/JPy7XkOnhi7TY77M=
 			</data>
 		</dict>
 		<key>Raspy.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P0GAET0AcK64Zt0MxSSwQKVmxo3qs3R2X0lKGaqZvU4=
+			As8dqo8W6S2psAP012pNCxKu8CzxUa6/G/OgqzAiBB0=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m3Geil2gseUpFpeI7Uu+D0wgbiElCR7evcQHjtYnv9g=
+			ZNHR1u0GWHCe/yPgmlDrxrXF463a2dhQkUlJHWKLh1w=
 			</data>
 		</dict>
 	</dict>
