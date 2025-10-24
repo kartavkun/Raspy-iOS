@@ -10,6 +10,7 @@ import Foundation
 struct ScheduleEntry: Decodable, Identifiable, Hashable {
     let id: Int
     let group_id: Int?
+    let group: String?        // <-- add this field!
     let schedule_date: String // формат "dd.MM.yyyy"
     let lesson_number: String // приходит строкой
     let subject: String

@@ -113,7 +113,7 @@ struct ScheduleView: View {
                         .foregroundStyle(.secondary)
                 }
                 .padding()
-            } else {
+            } else if items.count >= 5 {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(formattedSelectedDate)
@@ -127,6 +127,19 @@ struct ScheduleView: View {
                         }
                         Spacer(minLength: 12)
                     }
+                }
+            } else {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text(formattedSelectedDate)
+                        .font(.headline)
+                        .padding(.horizontal, 16)
+                        .padding(.top, 8)
+
+                    ForEach(items) { entry in
+                        LessonCard(entry: entry)
+                            .padding(.horizontal, 16)
+                    }
+                    Spacer(minLength: 12)
                 }
             }
         }
@@ -303,6 +316,16 @@ private struct LessonCard: View {
                     .font(.headline)
                     .foregroundStyle(.primary)
                     .lineLimit(2)
+
+                if let group = entry.group, !group.isEmpty {
+                    HStack(spacing: 8) {
+                        Image(systemName: "person.3")
+                            .foregroundStyle(.secondary)
+                        Text(group)
+                            .foregroundStyle(.secondary)
+                            .lineLimit(1)
+                    }
+                }
 
                 HStack(spacing: 8) {
                     Image(systemName: "person")
