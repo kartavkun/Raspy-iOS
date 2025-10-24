@@ -153,10 +153,14 @@ struct ScheduleView: View {
         }
 
         do {
-            let entries = try await service.fetch(type: type, name: name)
+            let entries = try await service.fetch(type: type, name: name, date: selectedDate)
             allEntries = entries
         } catch {
-            errorMessage = "Не удалось загрузить расписание.\n\(error.localizedDescription)"
+            var urlString = ""
+            if let nsError = error as NSError?, let url = nsError.userInfo["url"] as? String {
+                urlString = "\nURL: \(url)"
+            }
+            errorMessage = "Не удалось загрузить расписание.\n\(error.localizedDescription)\(urlString)"
             allEntries = []
         }
     }
