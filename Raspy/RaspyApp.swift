@@ -14,6 +14,11 @@ struct RaspyApp: App {
     @StateObject private var settings = AppSettings()   // Создаём один экземпляр на всё приложение
     @StateObject private var selections = SelectedSchedulesStore() // Shared selections store
 
+    // Первый запуск = онбординг ещё не завершён
+    private var isFirstLaunch: Bool {
+        !settings.didFinishOnboarding
+    }
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -29,23 +34,25 @@ struct RaspyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            if showLaunchScreen {
-                LaunchScreenView()
-                    .onAppear {
-                        // Задержка для отображения LaunchScreen
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                            withAnimation {
-                                showLaunchScreen = false
+            Group {
+                if showLaunchScreen {
+                    LaunchScreenView()
+                        .onAppear {
+                            // Задержка для отображения LaunchScreen
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                withAnimation {
+                                    showLaunchScreen = false
+                                }
                             }
                         }
-                    }
-                    .environmentObject(settings) // ← добавляем и сюда, если LaunchScreen использует settings
-                    .environmentObject(selections)
-            } else {
-                ContentView()
-                    .environmentObject(settings) // ← главное: передаём объект здесь
-                    .environmentObject(selections)
+                } else if isFirstLaunch {
+                    FirstSetupView()
+                } else {
+                    ContentView()
+                }
             }
+            .environmentObject(settings)
+            .environmentObject(selections)
         }
         .modelContainer(sharedModelContainer)
     }

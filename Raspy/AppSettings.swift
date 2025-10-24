@@ -8,6 +8,7 @@ enum AppTheme: String, CaseIterable {
 
 class AppSettings: ObservableObject {
     @AppStorage("appTheme") private var theme: String = AppTheme.system.rawValue
+    @AppStorage("didFinishOnboarding") var didFinishOnboarding: Bool = false
 
     var currentTheme: AppTheme {
         get { AppTheme(rawValue: theme) ?? .system }

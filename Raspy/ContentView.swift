@@ -27,10 +27,10 @@ struct ContentView: View {
                 }
             
             // Вкладка "Оценки"
-            GradeBookView()
-                .tabItem {
-                    Label("Оценки", systemImage: "book")
-                }
+            // GradeBookView()
+            //     .tabItem {
+            //         Label("Оценки", systemImage: "book")
+            //     }
             
             // Вкладка "Настройки"
             SettingsView()
