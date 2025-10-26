@@ -37,7 +37,7 @@ struct FirstSetupView: View {
 
     private var welcomeScreen: some View {
         VStack(spacing: 16) {
-            Image("Raspy_logo") // добавь логотип в ассеты с таким именем
+            Image("Rasp_logo_noBG") // добавь логотип в ассеты с таким именем
                 .resizable()
                 .scaledToFit()
                 .frame(width: 120, height: 120)
