@@ -24,7 +24,7 @@ struct AboutSettingsView: View {
                     .font(.system(size: 16))
                     .foregroundColor(.gray)
                 
-                Text("Beta 0.1.0")
+                Text("Beta 0.2.0")
                     .font(.system(size: 14))
                     .foregroundColor(.gray)
                     .padding(.bottom, 30)
