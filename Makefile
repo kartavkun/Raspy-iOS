@@ -2,42 +2,85 @@
 # Настройки проекта
 # ---------------------------
 
-SCHEME := Rasp
-# путь к директории с .xcodeproj ниже
-PROJECT := $(HOME)/git/my-repos/Raspy-iOS
-BUNDLE_ID := kartavkun.Raspy
-DERIVED_DATA := $(PROJECT)/DerivedData
-SIMULATOR_ID := iPhone 17
+SCHEME := Rasp                      # shared scheme
+PROJECT_FILE := Raspy.xcodeproj
+PROJECT_DIR := $(HOME)/git/my-repos/Raspy-iOS
 
-.DEFAULT_GOAL := run
+BUNDLE_ID := kartavkun.Raspy
+
+DERIVED_DATA := $(PROJECT_DIR)/DerivedData
+
+SIMULATOR_NAME := iPhone 17
+DEVICE_ID := 7CDB4FB6-522A-52C8-93CC-2B698FFED57E
+
+SIM_APP := $(DERIVED_DATA)/Build/Products/Debug-iphonesimulator/Raspy.app
+DEVICE_APP := $(DERIVED_DATA)/Build/Products/Debug-iphoneos/Raspy.app
+
+# .DEFAULT_GOAL := run-sim
 
 # ---------------------------
 # Цели
 # ---------------------------
-.PHONY: build run clean
 
-# Собрать проект
-build:
-	@echo "=== BUILD PROJECT ==="
-	xcodebuild -scheme $(SCHEME) \
+.PHONY: build-sim build-device run-sim install-device clean
+
+# ---------------------------
+# Сборка под симулятор
+# ---------------------------
+
+build-sim:
+	@echo "=== BUILD FOR SIMULATOR ==="
+	xcodebuild \
+		-project $(PROJECT_FILE) \
+		-scheme $(SCHEME) \
 		-configuration Debug \
 		-derivedDataPath $(DERIVED_DATA) \
-		-destination 'platform=iOS Simulator,name=$(SIMULATOR_ID)' \
+		-destination 'platform=iOS Simulator,name=$(SIMULATOR_NAME)' \
 		clean build -quiet
 
-# Установить и запустить на симуляторе
-run: build
+# ---------------------------
+# Сборка под устройство
+# ---------------------------
+
+build-device:
+	@echo "=== BUILD FOR DEVICE ==="
+	xcodebuild \
+		-project $(PROJECT_FILE) \
+		-scheme $(SCHEME) \
+		-configuration Debug \
+		-derivedDataPath $(DERIVED_DATA) \
+		-destination 'generic/platform=iOS' \
+		-allowProvisioningUpdates \
+		clean build -quiet
+
+# ---------------------------
+# Запуск на симуляторе
+# ---------------------------
+
+run-sim: build-sim
 	@echo "=== RUN ON SIMULATOR ==="
-	# включаем симулятор (если он ещё не запущен)
-	xcrun simctl boot "$(SIMULATOR_ID)" || true
-
-	# ставим билд
-	xcrun simctl install booted $(DERIVED_DATA)/Build/Products/Debug-iphonesimulator/Raspy.app
-
-	# запускаем приложение
+	xcrun simctl boot "$(SIMULATOR_NAME)" || true
+	xcrun simctl install booted $(SIM_APP)
 	xcrun simctl launch booted $(BUNDLE_ID)
 
-# Очистка сборки
+# ---------------------------
+# Установка и запуск на iPhone
+# ---------------------------
+
+install-device: build-device
+	@echo "=== INSTALL ON DEVICE ==="
+	xcrun devicectl device install app \
+		--device $(DEVICE_ID) \
+		$(DEVICE_APP)
+
+	xcrun devicectl device process launch \
+		--device $(DEVICE_ID) \
+		$(BUNDLE_ID)
+
+# ---------------------------
+# Очистка
+# ---------------------------
+
 clean:
 	@echo "=== CLEAN DERIVED DATA ==="
 	rm -rf $(DERIVED_DATA)
