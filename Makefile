@@ -3,7 +3,7 @@
 # ---------------------------
 
 SCHEME := Rasp                      # shared scheme
-PROJECT_FILE := Raspy.xcodeproj
+WORKSPACE_FILE := Raspy.xcodeproj/project.xcworkspace
 PROJECT_DIR := $(HOME)/git/my-repos/Raspy-iOS
 
 BUNDLE_ID := kartavkun.Raspy
@@ -31,7 +31,7 @@ DEVICE_APP := $(DERIVED_DATA)/Build/Products/Debug-iphoneos/Raspy.app
 build-sim:
 	@echo "=== BUILD FOR SIMULATOR ==="
 	xcodebuild \
-		-project $(PROJECT_FILE) \
+		-workspace $(WORKSPACE_FILE) \
 		-scheme $(SCHEME) \
 		-configuration Debug \
 		-derivedDataPath $(DERIVED_DATA) \
@@ -45,7 +45,7 @@ build-sim:
 build-device:
 	@echo "=== BUILD FOR DEVICE ==="
 	xcodebuild \
-		-project $(PROJECT_FILE) \
+		-workspace $(WORKSPACE_FILE) \
 		-scheme $(SCHEME) \
 		-configuration Debug \
 		-derivedDataPath $(DERIVED_DATA) \

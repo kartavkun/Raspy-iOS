@@ -1,0 +1,16 @@
+<key>NSAppTransportSecurity</key>
+<dict>
+    <!-- Позволяем не‑строгие TLS‑версии только для journal.uc.osu.ru -->
+    <key>NSExceptionDomains</key>
+    <dict>
+        <key>journal.uc.osu.ru</key>
+        <dict>
+            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+            <true/>                         <!-- позволяет TLS 1.0/1.1 -->
+            <key>NSExceptionRequiresForwardSecrecy</key>
+            <false/>                        <!-- отключаем требование FS -->
+            <key>NSExceptionMinimumTLSVersion</key>
+            <string>TLSv1.0</string>        <!-- явно говорим, что 1.0 допускается -->
+        </dict>
+    </dict>
+</dict>

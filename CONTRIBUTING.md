@@ -27,3 +27,8 @@
 </dict>
 </plist> 
 ```
+
+Также советую прописать данную команду, чтоб не палить ссылку или айпи вашего парсера:
+```bash
+git update-index --assume-unchanged Raspy/Parser/Config.swift
+```
