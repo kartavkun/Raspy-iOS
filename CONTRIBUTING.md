@@ -32,3 +32,15 @@
 ```bash
 git update-index --assume-unchanged Raspy/Parser/Config.swift
 ```
+
+Откройте проект в Xcode, и поменяйте настройки подписи и сертификата.
+
+Вы можете скомпилировать проект в самом Xcode, или в терминале.
+
+В репозитории имеется Makefile, который позволяет запускать тесты и сборку проекта. Для работы с Makefile необходимо в environment добавить переменные окружения PROJECT_DIR и DEVICE_ID (если вы будете устанавливать на устройство). Пример команды:
+```bash
+PROJECT_DIR=$(pwd) make run-sim 
+```
+```bash
+PROJECT_DIR=$(pwd) DEVICE_ID=1234567890 make install-device
+```

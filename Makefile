@@ -4,14 +4,14 @@
 
 SCHEME := Rasp                      # shared scheme
 WORKSPACE_FILE := Raspy.xcodeproj/project.xcworkspace
-PROJECT_DIR := $(HOME)/git/my-repos/Raspy-iOS
+# PROJECT_DIR := $(HOME)/git/my-repos/Raspy-iOS
 
 BUNDLE_ID := kartavkun.Raspy
 
 DERIVED_DATA := $(PROJECT_DIR)/DerivedData
 
 SIMULATOR_NAME := iPhone 17
-DEVICE_ID := 7CDB4FB6-522A-52C8-93CC-2B698FFED57E
+# DEVICE_ID := 
 
 SIM_APP := $(DERIVED_DATA)/Build/Products/Debug-iphonesimulator/Raspy.app
 DEVICE_APP := $(DERIVED_DATA)/Build/Products/Debug-iphoneos/Raspy.app

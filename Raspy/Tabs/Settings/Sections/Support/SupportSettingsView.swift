@@ -10,16 +10,11 @@ import SwiftUI
 struct Donor: Identifiable {
     let id = UUID()
     let nickname: String
-    let isRegular: Bool
 }
 
 struct SupportSettingsView: View {
-    let regularDonors = [
-        Donor(nickname: "", isRegular: true),
-    ]
-    
-    let oneTimeDonors = [
-        Donor(nickname: "", isRegular: false)
+    let donors = [
+        Donor(nickname: "Регина Ходырева"),
     ]
     
     var body: some View {
@@ -35,23 +30,11 @@ struct SupportSettingsView: View {
                 )
             }
             
-            if !regularDonors.isEmpty {
-                Section(header: Text("ЕЖЕМЕСЯЧНАЯ ПОДДЕРЖКА").textCase(.uppercase)) {
-//                    ForEach(regularDonors) { donor in
-//                        Text(donor.nickname)
-//                    }
-                }
-                .listRowBackground(
-                    Rectangle()
-                        .fill(Color(uiColor: .systemBackground))
-                )
-            }
-            
-            if !oneTimeDonors.isEmpty {
-                Section(header: Text("РАЗОВАЯ ПОДДЕРЖКА").textCase(.uppercase)) {
-//                    ForEach(oneTimeDonors) { donor in
-//                        Text(donor.nickname)
-//                    }
+            if !donors.isEmpty {
+                Section(header: Text("ПОДДЕРЖАВШИЕ").textCase(.uppercase)) {
+                    ForEach(donors) { donor in
+                        Text(donor.nickname)
+                    }
                 }
                 .listRowBackground(
                     Rectangle()
